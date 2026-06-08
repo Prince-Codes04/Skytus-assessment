@@ -1,8 +1,8 @@
-filename = input("Enter file name: ")
+file_name = input("Enter file name: ")
 
-with open(filename, "w") as file:
+with open(file_name, "w") as file:
     for i in range(5):
         sentence = input(f"Enter sentence {i+1}: ")
         file.write(sentence + "\n")
 
-print("Data written successfully.")
+print("5 sentences written successfully.")
